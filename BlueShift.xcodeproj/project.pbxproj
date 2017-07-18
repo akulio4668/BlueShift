@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F32D49FF45B5618D7EC87F /* Pods_BlueShiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99EDD37E12BB27206408082 /* Pods_BlueShiftTests.framework */; };
+		704537491F17B64A00C4E608 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 704537481F17B64A00C4E608 /* GoogleService-Info.plist */; };
+		7098A0431F042C5B009448AC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098A0421F042C5B009448AC /* Post.swift */; };
+		7098A0451F0430FA009448AC /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098A0441F0430FA009448AC /* TitleViewController.swift */; };
+		7098A0471F04327C009448AC /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098A0461F04327C009448AC /* AddPostViewController.swift */; };
+		7098A0491F0FEFE8009448AC /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098A0481F0FEFE8009448AC /* Comment.swift */; };
+		7098A04B1F113531009448AC /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098A04A1F113530009448AC /* CommentViewController.swift */; };
+		7098A04D1F13C45A009448AC /* AddCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098A04C1F13C45A009448AC /* AddCommentViewController.swift */; };
 		709A1DA11EFAA73F00665419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1DA01EFAA73F00665419 /* AppDelegate.swift */; };
 		709A1DA31EFAA73F00665419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1DA21EFAA73F00665419 /* ViewController.swift */; };
 		709A1DA61EFAA74000665419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709A1DA41EFAA74000665419 /* Main.storyboard */; };
@@ -14,6 +22,8 @@
 		709A1DAB1EFAA74000665419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709A1DA91EFAA74000665419 /* LaunchScreen.storyboard */; };
 		709A1DB61EFAA74000665419 /* BlueShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1DB51EFAA74000665419 /* BlueShiftTests.swift */; };
 		709A1DC11EFAA74000665419 /* BlueShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1DC01EFAA74000665419 /* BlueShiftUITests.swift */; };
+		AD1D73C5C444B8F9D25EEF11 /* Pods_BlueShift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC041F67ECCCAF60D15C796 /* Pods_BlueShift.framework */; };
+		DD0D3707362F0EC699691AB1 /* Pods_BlueShiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6F2019060FCB907F5C33BE /* Pods_BlueShiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076B2C3AFABAF488680693AD /* Pods-BlueShiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftTests/Pods-BlueShiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8FC94530A06D58472865CC /* Pods-BlueShift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShift/Pods-BlueShift.release.xcconfig"; sourceTree = "<group>"; };
+		38F2CDC858B4BA35097E9389 /* Pods-BlueShiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftTests/Pods-BlueShiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		704537481F17B64A00C4E608 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7098A0421F042C5B009448AC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7098A0441F0430FA009448AC /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleViewController.swift; path = ../TitleViewController.swift; sourceTree = "<group>"; };
+		7098A0461F04327C009448AC /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		7098A0481F0FEFE8009448AC /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		7098A04A1F113530009448AC /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		7098A04C1F13C45A009448AC /* AddCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentViewController.swift; sourceTree = "<group>"; };
 		709A1D9D1EFAA73F00665419 /* BlueShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		709A1DA01EFAA73F00665419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		709A1DA21EFAA73F00665419 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,12 @@
 		709A1DBC1EFAA74000665419 /* BlueShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		709A1DC01EFAA74000665419 /* BlueShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShiftUITests.swift; sourceTree = "<group>"; };
 		709A1DC21EFAA74000665419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7465E6FC0FFED1C7422E86E4 /* Pods-BlueShift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShift/Pods-BlueShift.debug.xcconfig"; sourceTree = "<group>"; };
+		806156AAD8BFCAAB3C7092A5 /* Pods-BlueShiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftUITests/Pods-BlueShiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C99EDD37E12BB27206408082 /* Pods_BlueShiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6F2019060FCB907F5C33BE /* Pods_BlueShiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC041F67ECCCAF60D15C796 /* Pods_BlueShift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA69D42CCA552989EEFDE10 /* Pods-BlueShiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftUITests/Pods-BlueShiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1D73C5C444B8F9D25EEF11 /* Pods_BlueShift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F32D49FF45B5618D7EC87F /* Pods_BlueShiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0D3707362F0EC699691AB1 /* Pods_BlueShiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				709A1DB41EFAA74000665419 /* BlueShiftTests */,
 				709A1DBF1EFAA74000665419 /* BlueShiftUITests */,
 				709A1D9E1EFAA73F00665419 /* Products */,
+				BB90BD41FDFFBCB5470A43CF /* Pods */,
+				8E6D5146D79102E451308252 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +130,17 @@
 			children = (
 				709A1DA01EFAA73F00665419 /* AppDelegate.swift */,
 				709A1DA21EFAA73F00665419 /* ViewController.swift */,
+				7098A0461F04327C009448AC /* AddPostViewController.swift */,
+				7098A04C1F13C45A009448AC /* AddCommentViewController.swift */,
+				7098A0441F0430FA009448AC /* TitleViewController.swift */,
+				7098A04A1F113530009448AC /* CommentViewController.swift */,
 				709A1DA41EFAA74000665419 /* Main.storyboard */,
 				709A1DA71EFAA74000665419 /* Assets.xcassets */,
+				7098A0421F042C5B009448AC /* Post.swift */,
+				7098A0481F0FEFE8009448AC /* Comment.swift */,
 				709A1DA91EFAA74000665419 /* LaunchScreen.storyboard */,
 				709A1DAC1EFAA74000665419 /* Info.plist */,
+				704537481F17B64A00C4E608 /* GoogleService-Info.plist */,
 			);
 			path = BlueShift;
 			sourceTree = "<group>";
@@ -125,6 +163,29 @@
 			path = BlueShiftUITests;
 			sourceTree = "<group>";
 		};
+		8E6D5146D79102E451308252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEC041F67ECCCAF60D15C796 /* Pods_BlueShift.framework */,
+				C99EDD37E12BB27206408082 /* Pods_BlueShiftTests.framework */,
+				CF6F2019060FCB907F5C33BE /* Pods_BlueShiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB90BD41FDFFBCB5470A43CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7465E6FC0FFED1C7422E86E4 /* Pods-BlueShift.debug.xcconfig */,
+				2B8FC94530A06D58472865CC /* Pods-BlueShift.release.xcconfig */,
+				076B2C3AFABAF488680693AD /* Pods-BlueShiftTests.debug.xcconfig */,
+				38F2CDC858B4BA35097E9389 /* Pods-BlueShiftTests.release.xcconfig */,
+				EAA69D42CCA552989EEFDE10 /* Pods-BlueShiftUITests.debug.xcconfig */,
+				806156AAD8BFCAAB3C7092A5 /* Pods-BlueShiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709A1DC51EFAA74000665419 /* Build configuration list for PBXNativeTarget "BlueShift" */;
 			buildPhases = (
+				B961C00C58E38838132A08A0 /* [CP] Check Pods Manifest.lock */,
 				709A1D991EFAA73F00665419 /* Sources */,
 				709A1D9A1EFAA73F00665419 /* Frameworks */,
 				709A1D9B1EFAA73F00665419 /* Resources */,
+				8C815EFD56E36AA68FE65089 /* [CP] Embed Pods Frameworks */,
+				B852743CAE68E2702202610E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709A1DC81EFAA74000665419 /* Build configuration list for PBXNativeTarget "BlueShiftTests" */;
 			buildPhases = (
+				FEB8495232C02D82FD671F59 /* [CP] Check Pods Manifest.lock */,
 				709A1DAD1EFAA74000665419 /* Sources */,
 				709A1DAE1EFAA74000665419 /* Frameworks */,
 				709A1DAF1EFAA74000665419 /* Resources */,
+				62C608CC66EBFD78DDF63270 /* [CP] Embed Pods Frameworks */,
+				17A74EC3D9D4EE13DD6B7449 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709A1DCB1EFAA74000665419 /* Build configuration list for PBXNativeTarget "BlueShiftUITests" */;
 			buildPhases = (
+				4733A06B57446370E6313A92 /* [CP] Check Pods Manifest.lock */,
 				709A1DB81EFAA74000665419 /* Sources */,
 				709A1DB91EFAA74000665419 /* Frameworks */,
 				709A1DBA1EFAA74000665419 /* Resources */,
+				2E5FB2486E72D8EF58C413D0 /* [CP] Embed Pods Frameworks */,
+				2DB20E1C4EA7EBB05B95E50A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +263,7 @@
 				TargetAttributes = {
 					709A1D9C1EFAA73F00665419 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5VKGNBRP89;
 						ProvisioningStyle = Automatic;
 					};
 					709A1DB01EFAA74000665419 = {
@@ -233,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				709A1DAB1EFAA74000665419 /* LaunchScreen.storyboard in Resources */,
+				704537491F17B64A00C4E608 /* GoogleService-Info.plist in Resources */,
 				709A1DA81EFAA74000665419 /* Assets.xcassets in Resources */,
 				709A1DA61EFAA74000665419 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +326,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17A74EC3D9D4EE13DD6B7449 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShiftTests/Pods-BlueShiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB20E1C4EA7EBB05B95E50A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShiftUITests/Pods-BlueShiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5FB2486E72D8EF58C413D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShiftUITests/Pods-BlueShiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4733A06B57446370E6313A92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62C608CC66EBFD78DDF63270 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShiftTests/Pods-BlueShiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C815EFD56E36AA68FE65089 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShift/Pods-BlueShift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B852743CAE68E2702202610E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShift/Pods-BlueShift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B961C00C58E38838132A08A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB8495232C02D82FD671F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		709A1D991EFAA73F00665419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7098A04B1F113531009448AC /* CommentViewController.swift in Sources */,
 				709A1DA31EFAA73F00665419 /* ViewController.swift in Sources */,
+				7098A0491F0FEFE8009448AC /* Comment.swift in Sources */,
+				7098A0471F04327C009448AC /* AddPostViewController.swift in Sources */,
+				7098A04D1F13C45A009448AC /* AddCommentViewController.swift in Sources */,
+				7098A0451F0430FA009448AC /* TitleViewController.swift in Sources */,
 				709A1DA11EFAA73F00665419 /* AppDelegate.swift in Sources */,
+				7098A0431F042C5B009448AC /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +628,10 @@
 		};
 		709A1DC61EFAA74000665419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7465E6FC0FFED1C7422E86E4 /* Pods-BlueShift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VKGNBRP89;
 				INFOPLIST_FILE = BlueShift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nebula.BlueShift;
@@ -424,8 +642,10 @@
 		};
 		709A1DC71EFAA74000665419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8FC94530A06D58472865CC /* Pods-BlueShift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VKGNBRP89;
 				INFOPLIST_FILE = BlueShift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nebula.BlueShift;
@@ -436,6 +656,7 @@
 		};
 		709A1DC91EFAA74000665419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076B2C3AFABAF488680693AD /* Pods-BlueShiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +671,7 @@
 		};
 		709A1DCA1EFAA74000665419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F2CDC858B4BA35097E9389 /* Pods-BlueShiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +686,7 @@
 		};
 		709A1DCC1EFAA74000665419 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA69D42CCA552989EEFDE10 /* Pods-BlueShiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BlueShiftUITests/Info.plist;
@@ -477,6 +700,7 @@
 		};
 		709A1DCD1EFAA74000665419 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806156AAD8BFCAAB3C7092A5 /* Pods-BlueShiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BlueShiftUITests/Info.plist;
@@ -507,6 +731,7 @@
 				709A1DC71EFAA74000665419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		709A1DC81EFAA74000665419 /* Build configuration list for PBXNativeTarget "BlueShiftTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +740,7 @@
 				709A1DCA1EFAA74000665419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		709A1DCB1EFAA74000665419 /* Build configuration list for PBXNativeTarget "BlueShiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +749,7 @@
 				709A1DCD1EFAA74000665419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
